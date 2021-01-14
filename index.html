@@ -1,26 +1,26 @@
-<h1>Erickson</h1>
+<h1>HTML na pratica</h1>
 
 <!--
 comentário
 -->
     
-    <h1>Conceitos</h1>
-    <h2>HTML</H2>
+    <h2>Conceitos</h2>
+    <h3>HTML</h3>
     Hypertext markup Language</br>
     HT => Hiper texto</br>
     M  => Marcação</br>
     L  => Linguagem</br>
 
-    <h2>Anatomina das tags</h2>
+    <h3>Anatomina das tags</h3>
 
     -- Abertura da tag => <></br>
-    -- Fechamento de tag => </></br>
+    -- Fechamento de tag => &lt;/&gt;</br>
     -- Conteúdo => Erickson</br>
-    -- elemento => <!--<h1>Erickson</h1>--></br>
-        <h2>Atribubos</h2>
+    -- elemento => &lt;h1&gt;Erickson&lt;/h1&gt;</br>
+        <h3>Atribubos</h3>
     -- informaçẽs extras</br>
     -- configurações</br>
-    <h2>Atribubos Globais</h2>
+    <h3>Atribubos Globais</h3>
     -- class</br>
     -- contenteditable = true edita o conteudo</br>
     -- data-? = data-test ou data-id</br>
@@ -29,13 +29,13 @@ comentário
     -- style</br>
     -- tabindex</br>
     -- title</br>
-    <h2>Aninhamento de tag</h2>
+    <h3>Aninhamento de tag</h3>
 
     -- Hierarquia
     -- fluxo
     -- posicionamento dos elementos
     
-    <h2>Patricando</h2>
+    <h3>Patricando</h3>
     <p>
         Vou <em>ser programador</em>
     </p>
@@ -43,12 +43,84 @@ comentário
         Estude até conquistar seus <strong>sonhos</strong><br>
         <a href="pages/anatomiaDodocumento.html" >Saiba mais</a>
     </p>
-    <h2>Caracteres Reservados</h2>
+    <h3>Caracteres Reservados</h3>
     -- conteudo do texto e Caracteres Reservados<br>
     -- espaço => &nbsp; <!--tem varios--><br>
     -- &lt;<br>
     -- &gt;<br>
     -- &apos;<br>
 
-    <h2>anatomia Do documento</h2>
+    <h3>anatomia Do documento</h3>
     <a href="pages/anatomiaDodocumento.html" >Estrutura do HTML</a>
+    <h2>Trabalhando com elementos</h2>
+    <h3>Semântica</h3>
+    -- Dar significado<br>
+    -- elementos semanticos
+    -- html bem estruturado é melhor posicionado nas buscas do google<br>
+
+    <h3>Títulos e parágrafos</h3>
+
+    -- cabeçalhos e paragrafos <br><br>
+    -- simulando uma nova pagina --
+    <fieldset>
+        <h1>Sobre mim</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Tempora in inventore animi maiores. Itaque at quibusdam possimus molestias necessitatibus dicta rerum sed tenetur consectetur et quis, officia architecto ducimus debitis.</p>
+        <h2>Nascimento</h2>
+        <h3>Incancia</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in inventore animi maiores. Itaque at quibusdam possimus molestias necessitatibus dicta rerum sed tenetur consectetur et quis, officia architecto ducimus debitis.</p>
+        <h3>Adolecencia </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in inventore animi maiores. Itaque at quibusdam possimus molestias necessitatibus dicta rerum sed tenetur consectetur et quis, officia architecto ducimus debitis.</p>
+        <h2>Trabalho</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in inventore animi maiores. Itaque at quibusdam possimus molestias necessitatibus dicta rerum sed tenetur consectetur et quis, officia architecto ducimus debitis.</p>
+        <a href="" title="">Saiba mais</a>
+    </fieldset>
+
+
+    <h3>Listas</h3>
+
+    -- Ordenada <br>
+    -- Não ordenada <br><br>
+
+    -- simulando uma nova pagina --
+    <fieldset>
+        <h1>Suco Detox</h1>
+        <h2>Ingredientes</h2>
+        <h3>Lista ordenada</h3>
+        <ol>
+            <li>3 folhas de couve;</li>
+            <li>1 laranja;</li>
+            <li>1 pedacinho de gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto;</li>
+        </ol>
+        <h3>Lista Não ordenada</h3>
+        <ul>
+            <li>3 folhas de couve;</li>
+            <li>1 laranja;</li>
+            <li>1 pedacinho de gengibre;</li>
+            <li>300 ml de água;</li>
+            <li>Adoçante a gosto;</li>
+            <li>Gelo a gosto;</li>
+        </ul>        
+    </fieldset>
+
+    <h2>Citações</h2>
+
+    -- &lt;blockquote&gt; <-- indica que um texto foi citado <br>
+    -- &lt;cite&gt;<br>
+    -- &lt;p&gt;<br>
+
+    <blockquote cite="http://developer.mozilla.org">
+        <p>Esta é uma citação tirada da
+        Mozilla Developer Center.</p>
+    </blockquote>
+
+    <p> De acordo com <a href="http://developer.mozilla.org">        
+    <cite>Mozilla Developer Center.</cite></a>&nbsp; Esta é uma citação tirada da</p>
+
+    <p <p> <q cite="http://developer.mozilla.org">
+        Esta é uma citação tirada da
+        Mozilla Developer Center.</q> <a href="http://developer.mozilla.org">MDN</a></p>
+    </p>
