@@ -111,16 +111,94 @@ comentário
     -- &lt;blockquote&gt; <-- indica que um texto foi citado <br>
     -- &lt;cite&gt;<br>
     -- &lt;p&gt;<br>
+    <fieldset>
+        <blockquote cite="http://developer.mozilla.org">
+            <p>Esta é uma citação tirada da
+            Mozilla Developer Center.</p>
+        </blockquote>
+   
+        <p> De acordo com <a href="http://developer.mozilla.org">        
+        <cite>Mozilla Developer Center.</cite></a>&nbsp; Esta é uma citação tirada da</p>
 
-    <blockquote cite="http://developer.mozilla.org">
-        <p>Esta é uma citação tirada da
-        Mozilla Developer Center.</p>
-    </blockquote>
+        <p>
+            <q cite="http://developer.mozilla.org">
+            Esta é uma citação tirada da
+            Mozilla Developer Center.</q> <a href="http://developer.mozilla.org">MDN</a></p>
+        </p>
+    </fieldset>
+    <h3>Abreviações</h3>
 
-    <p> De acordo com <a href="http://developer.mozilla.org">        
-    <cite>Mozilla Developer Center.</cite></a>&nbsp; Esta é uma citação tirada da</p>
+    -- &lt;abbr&gt;
 
-    <p <p> <q cite="http://developer.mozilla.org">
-        Esta é uma citação tirada da
-        Mozilla Developer Center.</q> <a href="http://developer.mozilla.org">MDN</a></p>
-    </p>
+    <fieldset>
+        <p>
+            Usamos <abbr title="HyperText Markuo Laguage">HTML</abbr> para estruturar nossos documentos da web
+        </p>
+    </fieldset>
+
+    <h3>Detalhes de contato</h3>
+
+    -- address
+
+    <fieldset>
+        <address>
+            <p>Erickson Martinez<br>
+                <strong>Campo Grande, MS</strong>
+            </p>
+        </address>
+    </fieldset>
+
+    <h3>Listas de descrição</h3>
+
+    --  &lt;dl&gt;<br>
+    --&nbsp;&nbsp;&nbsp;&lt;dt&gt;&lt;/dt&gt;<br>
+    --&nbsp;&nbsp;&nbsp;&lt;df&gt;&lt;/dt&gt;<br>
+    --  &lt;dl&gt;<br>
+
+    <fieldset>
+        <h2>Glossário</h2>
+        <dl>
+            <dt>HyperText</dt>
+            <dd>Hiper texto com possibilidades...</dd>
+            <dt>Marhup</dt>
+            <dd>Marcação de texto</dd>
+            <dt>Language</dt>
+            <dd>Linguagem com sua Semântica e Sintaxe...</dd>
+        </dl>
+    </fieldset>
+
+    <h3>Representação de codigos de computador</h3>
+
+    --  &lt;code&gt;Partes genericas de código<br>
+
+    --  &lt;pre&gt; Blocos de códigos, mantem espaços em branco<br>
+
+    <fieldset>
+      <code>
+          document.querySelector("body");
+      </code>
+   
+       <pre>
+            <code>
+                document
+                    .querySelector("body");
+            </code>
+        </pre>
+    </fieldset>
+    <h3>Elementos genericos</h3>
+
+    --  &lt;div&gt; final quebra linha<br>
+
+    --  &lt;span&gt;inline<br> 
+
+    <fieldset>
+      <div>
+          Um texto qualquer
+      </div>
+   
+       <span>Um SPAN</span><span> outro SPAN</span>
+
+       <div class="acomodacoes">
+           Jericoacara <span>10 X </span><span>499,99.</span>
+       </div>
+    </fieldset>
